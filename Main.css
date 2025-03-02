@@ -1,0 +1,71 @@
+/* 
+selector{
+    property: value;
+    property2: value;
+    property3: value
+}
+*/
+body
+{
+    background-color: blue;
+    background-image: linear-gradient(aquamarine, white)
+}
+nav
+{
+    background-color: azure;
+    color: orange;
+    border: 2px dashed black;
+    border-top-left-radius: 2em 2em;
+    border-top-right-radius: 2em 2em;
+    border-bottom-left-radius: 2em 2em;
+    border-bottom-right-radius: 2em 2em;
+    width: 8em;
+    text-align: center;
+}
+p
+{
+    background-color: aliceblue;
+    color: aquamarine;
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+h1
+{
+    text-transform: uppercase;
+    text-shadow: 2cap;
+    text-decoration: double;
+}
+h6
+{
+    text-decoration: wavy;
+    font-size: 20px;
+    color: aliceblue;
+}
+ul
+{
+   color-scheme: rgb(252, 206, 122);
+   padding: 20;
+   font-style: italic;
+   font-size: 40px;
+}
+button
+{
+    background-color: rgb(242, 242, 115);
+    border: plum;
+    border-radius: 100px;
+    border-style: groove;
+    width: 200px;
+    height: 200px;
+    cursor: crosshair;
+}   
+#first button:hover
+{
+    background-color: skyblue;
+    padding: 16px;
+    transition-duration: .4s;
+    color: yellowgreen;
+}
+
